@@ -1,11 +1,30 @@
 <!doctype html>
 <html lang="en">
   <head>
+  	<link rel="stylesheet" type="text/css" href="styles.css" />
     <meta charset="utf-8">
     <title>Hello, Student!</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
   </head>
   <body>
-  	<canvas id="canvas" width="288" height="512"></canvas>
-  	<script src ="script.js"></script>
+<h2>Продовольственная лавка</h2>
+<button id="wraplist" onclick ="b()">...</button>
+<ul id="shoppingList">
+	<li id = "one" class = "hot"><em>Свежий</em> инжир</li>
+	<li id = "two" class = "hot">Кедровые орешки</li>
+	<li id = "three" class = "hot">Пчелиный мёд</li>
+	<li id = "four">Бальзамический уксус</li>
+</ul>
+
+
+<div id="newItemButton"><button href="#" id="showForm">new</button></div>
+	<form id ="newItemForm">
+		<input type="text" id="itemDescription" placeholder="Добавьте название">
+		<input type="submit" id="addButton" value = "Добавить...">
+	</form>
+
+
+  	<script src ="script.js"></script>  
   </body>
 </html>
