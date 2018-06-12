@@ -1,1 +1,18 @@
 
+li{
+	font-size:150%;
+	list-style:none;
+}
+#wraplist{
+		left: 300px;
+    position: absolute;
+    top: 25px;
+}
+#showForm{
+		left: 330px;
+    position: absolute;
+    top: 25px;
+}
+#shoppingList{
+	padding-left:50px;
+}
