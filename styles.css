@@ -1,0 +1,17 @@
+#AjaxHtml{
+	background-color:#e5bdb5;
+	width:241px;
+}
+a{
+	text-decoration:none;
+	color:#8a879a;
+}
+b{
+	color:red;
+}
+strong{
+	color:green;
+}
+span{
+	color:blue;
+}

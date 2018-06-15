@@ -1,30 +1,25 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
   <head>
-  	<link rel="stylesheet" type="text/css" href="main.css" />
-    <meta charset="utf-8">
-    <title>Hello, Student!</title>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <meta charset="UTF-8">
+  <title>JavaScript и jQuery - Глава 8</title>
   </head>
-  <body>
-<h2>Продовольственная лавка</h2>
-<button id="wraplist" onclick ="b()">...</button>
-<ul id="shoppingList">
-	<li id = "one" class = "hot"><em>Свежий</em> инжир</li>
-	<li id = "two" class = "hot">Кедровые орешки</li>
-	<li id = "three" class = "hot">Пчелиный мёд</li>
-	<li id = "four">Бальзамический уксус</li>
-</ul>
+  <body><div id="AjaxHtml">AjaxHtml
+      <nav>
+        <a href="index.html" class="current">ГЛАВНАЯ</a>
+        <a href="jq-load2.html">СОБЫТИЯ</a>
+        <a href="jq-load3.html">ИГРУШКИ</a>
+      </nav>
+    <section id="content">
+      <div id="container">
+      <b>Страница 1</b>
+      </div>
+    </section>
+    </div>
 
+    <script src="jq-load.js"></script>
 
-<div id="newItemButton"><button href="#" id="showForm">new</button></div>
-	<form id ="newItemForm">
-		<input type="text" id="itemDescription" placeholder="Добавьте название">
-		<input type="submit" id="addButton" value = "Добавить...">
-	</form>
-
-
-  	<script src ="script.js"></script>  
   </body>
 </html>
