@@ -1,21 +1,33 @@
 <!doctype html>
 <html lang="en">
   <head>
-  	<link rel="stylesheet" type="text/css" href="" />
+  	<link rel="stylesheet" type="text/css" href="styles.css" />
     <meta charset="utf-8">
     <title>Hello, Student!</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   </head>
   <body>
+    <div id="content">
+  <div class="login">
     <label for="text">Login:</label>
     <input type="text"  id="login">
-    </br>
-    <label for="checkbox">Remember me!</label>
-    <input type="checkbox" id="remember">
-  	<script src ="script.js"></script>
-    </br>
+  </div>
+  
+  <div class ="password">
     <label for="password">Password:</label>
     <input type="password">
+  </div>
+  
+  <div class="remember">
+    <label for="checkbox">Remember me!</label>
+    <input type="checkbox" id="remember">
+  </div>
+
+  <input type="button" class="button" value="Log in!" onClick="window.location.reload()">
+
+</div>
+
+  <script src ="script.js" href="#"></script>
   </body>
 </html>
