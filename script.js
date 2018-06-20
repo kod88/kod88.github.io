@@ -1,7 +1,7 @@
 
-var b = localStorage.getItem('login');
-		$('#login').val(b);
-		console.log("До перезагрузки страницы : "+ b);
+var lastlogin = localStorage.getItem('login');
+		$('#login').val(lastlogin);
+		console.log("До перезагрузки страницы : "+ lastlogin);
 	$('#remember').on('click',function(){
 	if(this.checked){
 	var login = $("#login").val();

@@ -1,19 +1,59 @@
-#login{
-	margin-left:23px;
+
+
+body{
+		background-color:#5076b0;
+		font-family: 'Russo One', sans-serif;
 }
-div{
-	margin-top:5px;
+
+header{
+		height:90px;
+		background-color:#3e476f;
+    line-height: 90px;
 }
-.remember,button{
+#logo{ 
+	padding-right:0;
+	text-align:center;
+		display: inline-block;
+	}
+
+nav>ul>li{
+  text-align: center;
+	display:inline-block;
+	width:80px;
+}
+nav{
+	text-align:center;
 	display:inline-block;
 }
-.button{
-    margin-left: 35px;
-    margin-bottom: 5px;
+a{
+	color:black;
 }
-#content{
-	padding-left:1px;
-	padding-top:1px;
-	background-color:#89b4c4;
-	    width: 250px;
+nav>ul>li:hover,#logo:hover,a:hover{
+	color:black;
+	cursor:pointer;
+	background-color:#49598c;
+	text-decoration:none;
+}
+#loginMenu{
+	line-height:30px;
+	display:inline-block;
+}
+.remember{
+	display:inline-block;
+}
+.logn{
+  text-align: right;
+	line-height:15px;
+	padding-top:5px;
+}
+.login>input,.password>input{
+	width:125px;
+}
+.login>input{
+      margin-left: 35px;
+}
+.login,.password,.remember{
+	float:right;
+	width:100%;
+	padding-right:5px;
 }
