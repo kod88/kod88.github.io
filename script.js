@@ -12,4 +12,19 @@ var lastlogin = localStorage.getItem('login');
 	localStorage.removeItem('login')
 	}
 	});
-		if(!$('#remember').checked){localStorage.removeItem('login')}
+		if(!$('#remember').checked){localStorage.removeItem('login')};
+
+//Маштабирование поля контента
+var contentHeight = $('#sidebar').height();
+$('.dinamicContent').height(contentHeight);
+//Ajax подгрузка страницы
+/*
+$('nav ul li a').on('click',function(e){
+e.preventDefault();
+var url = this.href;
+$('nav a.current').removeClass('current');
+$(this).addClass('current');
+$('#container').remove();
+$('#content').load(url + ' #container').hide().fadeIn(500);
+});
+*/

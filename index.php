@@ -14,10 +14,10 @@
     <span id ="logo" class="col-2">Fizfuck</span>
     <nav class="col-7">
       <ul>
-        <li><a href="" >Новости</a></li>
-        <li><a href="">Мемы</a></li>
-        <li><a href="">Альбомы</a></li>
-        <li><a href="">Правила</a></li>
+        <li><a href="pages/News/Новости.html" >Новости</a></li>
+        <li><a href="pages/Memes/Мемы.html">Мемы</a></li>
+        <li><a href="pages/Albums/Альбомы.html">Альбомы</a></li>
+        <li><a href="pages/Rules/Правила.html">Правила</a></li>
       </ul>
     </nav>
 <div class="logn col-3">

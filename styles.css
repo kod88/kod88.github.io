@@ -1,13 +1,16 @@
 
 
 body{
-		background-color:#5076b0;
+	color:white;
+		background-color:black;
 		font-family: 'Russo One', sans-serif;
 }
-
+a,a:hover,nav>ul>li:hover,#logo,#logo:hover,nav>ul>li>a:hover{
+	color:white;
+}
 header{
 		height:90px;
-		background-color:#3e476f;
+		background-color:#242424;
     line-height: 90px;
 }
 #logo{ 
@@ -19,19 +22,18 @@ header{
 nav>ul>li{
   text-align: center;
 	display:inline-block;
-	width:80px;
+	width:90px;
 }
 nav{
 	text-align:center;
 	display:inline-block;
 }
-a{
-	color:black;
+a,a:hover{
+	text-decoration:none;
 }
-nav>ul>li:hover,#logo:hover,a:hover{
-	color:black;
+nav>ul>li:hover,#logo:hover,nav>ul>li>a:hover{
 	cursor:pointer;
-	background-color:#49598c;
+	background-color:#3d3d3d;
 	text-decoration:none;
 }
 #loginMenu{
@@ -42,6 +44,7 @@ nav>ul>li:hover,#logo:hover,a:hover{
 	display:inline-block;
 }
 .logn{
+  padding-right: 0;
   text-align: right;
 	line-height:15px;
 	padding-top:5px;
@@ -56,4 +59,68 @@ nav>ul>li:hover,#logo:hover,a:hover{
 	float:right;
 	width:100%;
 	padding-right:5px;
+}
+
+/*content*/
+.row{
+margin-right:0;
+margin-left: 0;
+}
+.content{
+	margin-top:10px;
+}
+/*dinamicContent*/
+.dinamicContent{
+	width:100%;
+	background-color:#242424;
+}
+.lastNewsItem>img{
+	width:50%;
+}
+#container>img{
+	width:50%;
+}
+.welcome{
+	text-align:center;
+}
+.ItemDescription{
+}
+/*Sidebar*/
+#sidebar{
+  padding-right: 0;
+	text-align:center;
+}
+.sidebarElement{
+	margin-top:5px;
+	cursor:pointer;
+	background-color:#242424;
+	width:100%;
+	height:auto;
+}
+.sidebarElement:first-child{
+	margin-top:0;
+}
+.sidebarElementName{
+margin-bottom:0px;
+}
+.sidebarImg{
+	width:100%;
+	height:auto;
+}
+.sidebarTitle{
+max-height:50px;
+text-overflow: ellipsis;
+overflow: hidden;
+margin-bottom:0px;
+}
+.sidebarElement:hover{
+	background-color:#3d3d3d;
+}
+
+/*Footer*/
+footer{
+	margin-top:10px;
+	text-align:center;
+	width:100%;
+background-color:#242424;
 }
