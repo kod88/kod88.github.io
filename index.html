@@ -2,23 +2,30 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-  <link href='css/login.css' rel='stylesheet' type='text/css'>
-	<title>Log</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<title>Title</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="main.css">
 </head>
 <body>
+  
+<header>
+  <a href="">Рисовать!</a></li>
+  <a href="">Галерея</a></li>
+</header>
 
-	<form action="" id="login_form" method="post">
-		<p>Âõîä!</p>
-		<input type="text" placeholder="     Ââåäèòå ëîãèí!" id="place_login">
-		<input type="password" placeholder="     Ââåäèòå ïàðîëü!" id="place_password">
-		
-		<div>
-			<button type="submit">Âîéòè!</button>
-		<a href="pages/pass/registration.html">Çàðåãèñòðèðîâàòüñÿ!</a>
-		<a href="pages/pass/restore_password.html">Çàáûëè ïàðîëü?</a></div>
-	</form>
+<div id="content">
+  <div id="drawZone">
+   <a href="" id="saveButton">Save</a> 
+    <input type="text" id="canvasName" placeholder="Название">
 
-<script src="js/login.js"></script>
+
+  <canvas id="canvas">
+    
+  </canvas>
+
+
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
