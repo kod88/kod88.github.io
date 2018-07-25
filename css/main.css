@@ -10,7 +10,7 @@ header{
 	width:100%;
 	position: absolute;
 	box-shadow:0 20px 30px rgba(0,0,0,0.7);;
-	background:url(img/shattered-island.gif);
+	background:url(../img/shattered-island.gif);
 	height:100px;
 	text-align: center;
 	line-height: 100px;
@@ -31,14 +31,14 @@ header>a:hover,#saveButton:hover{
 	position: absolute;
 	z-index: -1;
 	width:100%;
-	background:url(img/shattered-island-light.gif);
+	background:url(../img/shattered-island-light.gif);
 }
 #drawZone{
       padding: 0 5% 0 5%;
       margin-top: 100px;
 }
 #canvas{
-	width: 100%;
+	background-color:#D4D4D4;
   margin-top: 100px;
 	border:2px solid black;
 }
@@ -60,4 +60,9 @@ header>a:hover,#saveButton:hover{
   margin-top: 54px;
 	position:absolute;
 	font-size: 30px;
+}
+
+#img{
+			display: none;
+      margin-top: 130px;
 }

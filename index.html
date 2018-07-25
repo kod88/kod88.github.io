@@ -3,8 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Title</title>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
   
@@ -15,7 +14,7 @@
 
 <div id="content">
   <div id="drawZone">
-   <a href="" id="saveButton">Save</a> 
+   <a onclick="save()" id="saveButton" href="" download="YourPicture">Save</a> 
     <input type="text" id="canvasName" placeholder="Название">
 
 
@@ -25,7 +24,9 @@
 
 
 </div>
-
-<script src="script.js"></script>
+</div>
+<img id="img" src="" alt="IMG">
+<script src="js/canvas.js"></script>
+<script src="js/styles.js"></script>
 </body>
 </html>
