@@ -4,16 +4,17 @@
 	<meta charset="UTF-8">
 	<title>Title</title>
 <link rel="stylesheet" href="css/main.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
   
 <header>
-  <a href="">Рисовать!</a></li>
-  <a href="">Галерея</a></li>
+  <a href="index.html" class="current">Рисовать!</a></li>
+  <a href="gallery.html">Галерея</a></li>
 </header>
 
 <div id="content">
-  <div id="drawZone">
+  <div id="container">
    <a onclick="save()" id="saveButton" href="" download="YourPicture">Save</a> 
     <input type="text" id="canvasName" placeholder="Название">
 
@@ -23,9 +24,9 @@
   </canvas>
 
 
-</div>
-</div>
 <img id="img" src="" alt="IMG">
+</div>
+</div>
 <script src="js/canvas.js"></script>
 <script src="js/styles.js"></script>
 </body>

@@ -1,4 +1,5 @@
-var 
+
+	var 
 		content = document.getElementById("content"),
 		canvas = document.getElementById("canvas"),
 		innerHeight = window.innerHeight ;
