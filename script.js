@@ -1,3 +1,6 @@
+window.onload=myFunction();
+function myFunction(){
+	
 var widthMax = window.innerWidth;
 var heightMax = window.innerHeight;
 function getRandomArbitrary(min, max) {
@@ -19,4 +22,5 @@ animation.appendChild(img);
 
 for(var i = 0 ; i < 100 ;i++){
 setTimeout(dropGen,(Math.round(Math.random()*1000)));
+}
 }
