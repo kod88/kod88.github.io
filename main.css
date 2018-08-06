@@ -20,6 +20,9 @@ background-repeat:no-repeat;
 }
 img{
       position: absolute;
+	-webkit-animation: drop 1s linear infinite;
+  -moz-animation: drop 1s linear infinite;
+  -o-animation: drop 1s linear infinite;
 	animation: drop 1s linear infinite;
 	height:10px;
 }
